@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 30 15:18:33 2026
+
+@author: Vedant Banugade
+"""
+
+student = {}
+student["name"] = "Rahul"
+student["age"] = 20
+student["course"] = "Python"
+print("Dictionary after adding elements:")
+print(student)
+student["age"] = 21
+print("\nDictionary after updating a value:")
+print(student)
+del student["course"]
+print("\nDictionary after deleting a key-value pair:")
+print(student)
